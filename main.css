@@ -75,3 +75,14 @@ li a {
     line-height: 70%;
     font-size: 10pt;
 }
+
+.lightGray {
+    background-color: #cccccc;
+    padding: 10px 10px;
+}
+
+.darkGray {
+    background-color: #333333;
+    color: white;
+    padding: 10px 10px;
+}
