@@ -1,0 +1,44 @@
+body, html {
+    z-index: 1;
+}
+
+.parallaxMe {
+    background-image: url("images/me.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myName {
+    background-color: transparent;
+
+    margin-left: 10%;
+    font-size: 40pt;
+    font-weight: bolder;
+    color: #2b1a05;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+  
