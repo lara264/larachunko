@@ -17,28 +17,40 @@ body, html {
     margin-left: 10%;
     font-size: 40pt;
     font-weight: bolder;
-    color: #2b1a05;
+    color: black;
 }
 
-ul {
+.topNavBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #2b1a05;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
+.contactInfo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b1a05;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 li {
     float: left;
-}
-  
-li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
 }
-  
+
+li a {
+    color: white;
+} 
+
