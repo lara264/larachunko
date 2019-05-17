@@ -11,6 +11,33 @@ body, html {
     background-size: cover;
 }
 
+.parallaxWMRC {
+    background-image: url("images/SASE_WMRC_2019_Funny.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxVEX {
+    background-image: url("images/VEX_Worlds_2018.JPG");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxCodeQuest {
+    background-image: url("images/CodeQuest_2018.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed 
     Source: w3schools.com
 */
@@ -89,4 +116,22 @@ li a {
 
 .center {
     text-align: center;
+}
+
+.caption {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.left {
+    padding: 10px;
+    width: 30%;
 }
