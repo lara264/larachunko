@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -165,8 +167,6 @@
 
     <!--Exciting Times-->
 
-<!--Trying something new-->
-
     <a name="excitingTimes"></a>
     <div class="parallaxMe" style="height: 5%"> </div>
 
@@ -177,53 +177,66 @@
             <h1>Exciting Times</h1>
         </div>
     </div>
-
+    
     <!--VEX Robotics-->
     <div class="parallaxVEX" style="height: 70%"> </div>
     <div class="parallaxVEX" style="height: 30%"> 
-        <div class="caption">
-            <span class="border">VEX Robotics</span>
+        <div>
+            <!-- Trigger/Open The Modal -->
+            <div class="center">
+                <button type="button" class="btn border" onclick="modalScript('VEX', 'robotics')" id="VEX">VEX Robotics</button>
+            </div>
+
+            <!-- The Modal -->
+            <div id="robotics" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>VEX Robotics. Hi, I'm in the stages of updating. Hope to provide more information soon!</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <!--SASE WMRC-->
     <div class="parallaxWMRC" style="height: 70%"> </div>
     <div class="parallaxWMRC" style="height: 30%"> 
-        <div class="caption">
-            <span class="border">Society of Asian Scientists and Engineers</span>
+        <div>
+            <!-- Trigger/Open The Modal -->
+            <div class="center">
+                <button type="button" class="btn border" onclick="modalScript('SASE', 'WMRC')" id="SASE">Society of Asian Scientists and Engineers</button>
+            </div>
+
+            <!-- The Modal -->
+            <div id="WMRC" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Society of Asian Scientists and Engineers (SASE). Hi, I'm in the stages of updating. Hope to provide more information soon!</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!--CodeQuest-->
+    <!--Coding Competitions-->
     <div class="parallaxCodeQuest" style="height: 70%"> </div>
     <div class="parallaxCodeQuest" style="height: 30%"> 
-        <div class="caption">
-            <span class="border">Coding Competitions</span>
+        <div>
+            <!-- Trigger/Open The Modal -->
+            <div class="center">
+                <button type="button" class="btn border" onclick="modalScript('coding', 'competitions')" id="coding">Coding Competitions</button>
+            </div>
+
+            <!-- The Modal -->
+            <div id="competitions" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Coding Competitions. Hi, I'm in the stages of updating. Hope to provide more information soon!</p>
+                </div>
+            </div>
         </div>
     </div>
-
-
-    <!--images side by side-->
-
-    <p class="boldOverlay center"> hi please work</p>
-
-    <!--a mess, why does the div screw the images up?
-    <div class="codingCompetitions">
-        <img src="images/CodeQuest_2018.png" alt="CodeQuest">
-        <img src="images/Lucid_Programming_Competition_2019.JPG" alt="Lucid Competition">
-    </div>
-    -->
-    
-
-    <p class="boldOverlay center"> the following below works</p>
-    <img src="images/CodeQuest_2018.png" alt="CodeQuest" style="width:50%;height: auto; float: left;">
-
-    <img src="images/Lucid_Programming_Competition_2019.JPG" alt="Lucid Competition" style="width:50%;height: auto; float: left;">
-
-    <!---->
-
-
-<!---->
 
     <!--Projects-->
     <a name="projects"></a>

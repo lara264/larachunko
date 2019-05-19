@@ -38,26 +38,6 @@ body, html {
     background-size: cover;
 }
 
-.fail {
-    background: url(images/CodeQuest_2018.png) no-repeat, url(images/Lucid_Programming_Competition_2019.JPG) no-repeat;
-
-    width:50%;
-    height: auto; 
-    float: left;
-    
-    /*
-    height: 100%;
-    width: 50%;
-    background-size: 50%;
-    */
-
-}
-
-.codingCompetitions {
-    width: 100%;
-    overflow: hidden;
-}
-
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed 
     Source: w3schools.com
 */
@@ -149,6 +129,7 @@ li a {
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
+    text-decoration: underline;
 }
 
 .leftAbout {
