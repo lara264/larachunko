@@ -1,5 +1,5 @@
 <!-- 
-    Resources: w3schools.com, stackoverflow.com
+    Resources: w3schools.com, stackoverflow.com, tutorialspoint.com
 -->
 
 <html>
@@ -45,6 +45,7 @@
 
     <div class="parallaxMe" style="height: 80%"> </div>
 
+    <!--
     <div class="parallaxMe" style="height: 30%"> 
 
         <div class="container-fluid">
@@ -60,6 +61,7 @@
         </div>
 
     </div>
+    -->
 
     <!--About Me-->
     <a name="about"></a>
@@ -72,16 +74,22 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="parallaxAbout" style="height: 50%"> </div>
 
-        <div class="row">
+    <div class="parallaxAbout" style="height: 50%"> 
 
-            <div class="column">
-
+        <div class="container-fluid alignRight" style="width: 30%">
+            <div class="lightGray">
+                <span>Hi, I'm Lara Chunko.</span>
+                <br>
+                <span>Sophomore at the University of Colorado Boulder</span>
+                <br>
+                <span>Working toward a B.S. in Computer Science</span>
+                <br>
+                <span>Expected Graduation 2022</span>
             </div>
-
         </div>
-
+    
     </div>
 
     <!--About Me
@@ -168,7 +176,7 @@
     <!--Exciting Times-->
 
     <a name="excitingTimes"></a>
-    <div class="parallaxMe" style="height: 5%"> </div>
+    <div class="parallaxAbout" style="height: 5%"> </div>
 
     <!--Exciting Times-->
     <div class="darkGray">
@@ -184,14 +192,14 @@
         <div>
             <!-- Trigger/Open The Modal -->
             <div class="center">
-                <button type="button" class="btn border" onclick="modalScript('VEX', 'robotics')" id="VEX">VEX Robotics</button>
+                <button type="button" class="btn border modalHover" onclick="modalScript('VEX', 'robotics')" id="VEX">VEX Robotics</button>
             </div>
 
             <!-- The Modal -->
             <div id="robotics" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
-                    <span class="close">&times;</span>
+                    <button class="close">&times;</button>
                     <p>VEX Robotics. Hi, I'm in the stages of updating. Hope to provide more information soon!</p>
                 </div>
             </div>
@@ -204,14 +212,14 @@
         <div>
             <!-- Trigger/Open The Modal -->
             <div class="center">
-                <button type="button" class="btn border" onclick="modalScript('SASE', 'WMRC')" id="SASE">Society of Asian Scientists and Engineers</button>
+                <button type="button" class="btn border modalHover" onclick="modalScript('SASE', 'WMRC')" id="SASE">Society of Asian Scientists and Engineers</button>
             </div>
 
             <!-- The Modal -->
             <div id="WMRC" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
-                    <span class="close">&times;</span>
+                    <button class="close">&times;</button>
                     <p>Society of Asian Scientists and Engineers (SASE). Hi, I'm in the stages of updating. Hope to provide more information soon!</p>
                 </div>
             </div>
@@ -224,14 +232,14 @@
         <div>
             <!-- Trigger/Open The Modal -->
             <div class="center">
-                <button type="button" class="btn border" onclick="modalScript('coding', 'competitions')" id="coding">Coding Competitions</button>
+                <button type="button" class="btn border modalHover" onclick="modalScript('coding', 'competitions')" id="coding">Coding Competitions</button>
             </div>
 
             <!-- The Modal -->
             <div id="competitions" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
-                    <span class="close">&times;</span>
+                    <button class="close">&times;</button>
                     <p>Coding Competitions. Hi, I'm in the stages of updating. Hope to provide more information soon!</p>
                 </div>
             </div>

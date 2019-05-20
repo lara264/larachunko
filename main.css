@@ -4,33 +4,30 @@ body, html {
 
 .parallaxMe {
     background-image: url("images/me.png");
+}
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallaxAbout {
+    background-image: url("images/pretty.JPG");
 }
 
 .parallaxWMRC {
     background-image: url("images/SASE_WMRC_2019_Funny.jpg");
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .parallaxVEX {
     background-image: url("images/DFTB.jpg");
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .parallaxCodeQuest {
     background-image: url("images/CodeQuest_2018.png");
+}
+
+.parallaxMe,
+.parallaxAbout,
+.parallaxWMRC,
+.parallaxVEX,
+.parallaxCodeQuest {
+    background-image: relative;
 
     background-attachment: fixed;
     background-position: center;
@@ -135,4 +132,13 @@ li a {
 .leftAbout {
     padding: 10px;
     width: 30%;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.modalHover:hover {
+    background-color: #45078c;
+    color: white;
 }
