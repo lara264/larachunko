@@ -7,10 +7,12 @@
 <head>
     <title> Lara Chunko </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
 
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -44,24 +46,6 @@
     </div>
 
     <div class="parallaxMe" style="height: 80%"> </div>
-
-    <!--
-    <div class="parallaxMe" style="height: 30%"> 
-
-        <div class="container-fluid">
-            <div class="leftAbout">
-                <span>Hi, I'm Lara Chunko.</span>
-                <br>
-                <span>Sophomore at the University of Colorado Boulder</span>
-                <br>
-                <span>Working toward a B.S. in Computer Science</span>
-                <br>
-                <span>Expected Graduation 2022</span>
-            </div>
-        </div>
-
-    </div>
-    -->
 
     <!--About Me-->
     <a name="about"></a>
@@ -115,20 +99,8 @@
     <!--VEX Robotics-->
     <div class="parallaxVEX" style="height: 70%"> </div>
     <div class="parallaxVEX" style="height: 30%"> 
-        <div>
-            <!-- Trigger/Open The Modal -->
-            <div class="center">
-                <button type="button" class="btn border modalHover" onclick="modalScript('VEX', 'robotics')" id="VEX">VEX Robotics</button>
-            </div>
-
-            <!-- The Modal -->
-            <div id="robotics" class="modal">
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <button class="close">&times;</button>
-                    <p>VEX Robotics. Hi, I'm in the stages of updating. Hope to provide more information soon!</p>
-                </div>
-            </div>
+        <div class="container-fluid center">
+            <a href="#" title="VEX Robotics" data-toggle="popover" data-placement="auto" data-trigger="focus" data-content="Hey, this works! Yay! More information coming soon!" class="border purpleHover">VEX Robotics</a>
         </div>
     </div>
 
@@ -138,7 +110,7 @@
         <div>
             <!-- Trigger/Open The Modal -->
             <div class="center">
-                <button type="button" class="btn border modalHover" onclick="modalScript('SASE', 'WMRC')" id="SASE">Society of Asian Scientists and Engineers</button>
+                <button type="button" class="btn border modalHover" onclick="modalScript('SASE', 'WMRC')" id="SASE">Society of Asian Scientists and Engineers </button>
             </div>
 
             <!-- The Modal -->
@@ -236,9 +208,14 @@
             </li>
         </ul>
     </div>
-     
 
 </body>
 
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();   
+        $('[data-toggle="popover"]').on('click', function(e) {e.preventDefault(); return true;});
+    });
+</script>
 
 </html>
