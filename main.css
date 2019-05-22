@@ -101,13 +101,30 @@ li a {
 
 .lightGray {
     background-color: #cccccc;
+    color:#333333;
     padding: 10px 10px;
+}
+
+.LGbubble {
+    background-color: #cccccc;
+    color:#333333;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #333333;
 }
 
 .darkGray {
     background-color: #333333;
-    color: white;
+    color:#cccccc;
     padding: 10px 10px;
+}
+
+.DGbubble {
+    background-color: #333333;
+    color:#cccccc;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
 }
 
 .center {
@@ -144,11 +161,6 @@ li a {
     text-align: right;
 }
 
-.modalHover:hover {
-    background-color: #45078c;
-    color: white;
-}
-
 .colLeft {
     flex: 55%;
     padding: 10px;
@@ -164,26 +176,9 @@ li a {
     display: flex;
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+.space {
+    flex: 10%;
+    margin: 25px;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 20;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
