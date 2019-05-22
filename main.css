@@ -3,7 +3,7 @@ body, html {
 }
 
 .parallaxMe {
-    background-image: url("images/me.png");
+    background-image: url("images/me.jpeg");
 }
 
 .parallaxAbout {
@@ -19,7 +19,7 @@ body, html {
 }
 
 .parallaxCodeQuest {
-    background-image: url("images/CodeQuest_2018.png");
+    background-image: url("images/CodeQuest_2018.jpg");
 }
 
 .parallaxMe,
