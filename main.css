@@ -99,24 +99,9 @@ li a {
     font-size: 10pt;
 }
 
-.lightGray {
-    background-color: #cccccc;
-    color:#333333;
-    padding: 10px 10px;
-}
-
-.LGbubble {
-    background-color: #cccccc;
-    color:#333333;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: 1px solid #333333;
-}
-
 .darkGray {
     background-color: #333333;
     color:#cccccc;
-    padding: 10px 10px;
 }
 
 .DGbubble {
@@ -124,7 +109,7 @@ li a {
     color:#cccccc;
     padding: 10px 10px;
     border-radius: 5px;
-    border: 1px solid #cccccc;
+    border: 1px solid #333;
 }
 
 .center {
