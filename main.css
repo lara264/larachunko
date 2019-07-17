@@ -173,3 +173,10 @@ li a {
     padding: 3%;
     background-color: #45078c;
 }
+
+.fixedTitle {
+    position: absolute; 
+    margin-top: 70%; 
+    align: center; 
+    width: 100%;
+}
