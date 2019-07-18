@@ -46,6 +46,14 @@ body, html {
     .parallaxCodeQuest  {
       background-attachment: scroll;
     } 
+
+    nav ul {
+        display: none;
+    }
+    nav select {
+        display: inline-block;
+    }
+
 }
 
 .boldOverlay {
@@ -69,6 +77,7 @@ body, html {
     z-index: 10;
 }
 
+/* for large screens */
 .contactInfo {
     list-style-type: none;
     margin: 0;
@@ -78,6 +87,11 @@ body, html {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* for small screens */
+nav select {
+    display: none;
 }
 
 li {
