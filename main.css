@@ -94,9 +94,9 @@ li a {
 
 .credit {
     width: 98%;
-    position: fixed;
+    position: absolute;
+    margin-top: 89vh;
     text-align: right; 
-    bottom: 7%;
     margin-right: 2%;
     line-height: 70%;
     font-size: 10pt;
@@ -183,6 +183,5 @@ li a {
 
 .bigWords {
     position: absolute; 
-    
-
+    margin-top: 7vh; 
 }
