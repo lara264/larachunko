@@ -176,7 +176,13 @@ li a {
 
 .fixedTitle {
     position: absolute; 
-    margin-top: 70%; 
+    margin-top: 70vh; 
     align: center; 
     width: 100%;
+}
+
+.bigWords {
+    position: absolute; 
+    
+
 }
